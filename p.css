@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+
+/*nav*/
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding-top: 15px;
+    background-color: rgb(4, 58, 4);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    list-style: none;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 40px;
+
+
+}
+
+
+li a:hover {
+    color: rgb(187, 252, 161)
+}
+
+header {
+    align-items: center;
+}
+
+
+
+
+
+
+/*hero style*/
+#home {
+
+    background: linear-gradient(rgba(255, 255, 255, 0.219), rgba(255, 253, 253, 0.788)), url(img/pexels-goumbik-296115.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 10px;
+    text-align: center;
+    color: rgb(4, 58, 4);
+    font-weight: bolder;
+    align-items: center;
+    padding-top: 150px;
+
+}
+
+
+
+
+
+#home h1 {
+    font-size: 48px;
+
+}
+
+#home p {
+    font-size: 30px;
+}
+
+#home button {
+    background-color: rgb(4, 58, 4);
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+    border-radius: 20px;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-column {
+    width: 50%;
+    padding: 20px;
+}
+
+.left-column img {
+    width: 100%;
+    padding: 20px;
+}
+
+.right-column {
+    width: 50%;
+    padding: 20px;
+    color: rgb(4, 58, 4);
+    font-weight: bold;
+    font-size: 30px;
+    background-color: white;
+}
+
+.ab {
+    text-align: center;
+    color: rgb(4, 58, 4);
+    font-size: 30px;
+
+}
+
+#download-resume {
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(4, 58, 4);
+    padding: 10px 20px;
+    color: white;
+    align-self: center;
+    cursor: pointer;
+}
+
+#contact {
+    /* Add a background color or image, if desired */
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+#contact h1 {
+    /* Style the heading */
+    color: rgb(4, 58, 4);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-icons {
+    /* Display the icons in a row */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.icons {
+    /* Style each icon container */
+    margin: 20px;
+    text-align: center;
+    color: rgb(4, 58, 4);
+}
+
+.icons img {
+    /* Style the icons */
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.icons img {
+    /* Style the icons */
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    filter: invert(48%) sepia(93%) saturate(638%) hue-rotate(50deg) brightness(30%) contrast(103%);
+
+
+
+}
+
+
+.icons p {
+    /* Style the text below each icon */
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.icons a {
+    text-decoration: none;
+
+}
+
+.icons a:hover {
+    /* Style the links on hover */
+    color: green;
+    cursor: pointer;
+}
+
+
+
+
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: rgb(4, 58, 4);
+    padding: 10px;
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        display: flex;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    #contact {
+        padding: 20px;
+    }
+
+    .contact-icons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icons {
+        margin-bottom: 20px;
+    }
+
+    .icons img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .icons p {
+        font-size: 16px;
+    }
+
+}
