@@ -19,6 +19,7 @@ nav {
     overflow: hidden;
 }
 
+
 li {
     display: inline;
     list-style: none;
@@ -54,7 +55,7 @@ header {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 60vh;
     padding: 10px;
     text-align: center;
     color: rgb(4, 58, 4);
@@ -118,6 +119,7 @@ header {
     text-align: center;
     color: rgb(4, 58, 4);
     font-size: 30px;
+   padding-top: 100px;;
 
 }
 
@@ -210,9 +212,15 @@ footer {
 
 
 @media only screen and (max-width: 600px) {
+    nav {
+        height: 50px;
+
+    }
+
     nav ul {
-        flex-direction: column;
+        flex-direction: row;
         display: flex;
+
     }
 
     nav ul li {
