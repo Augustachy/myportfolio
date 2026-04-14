@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Augusta Chidiebere</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="style.css" />
+
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "U6cWJ4TKFrdyjsVYb",
+      });
+   })();
+</script>
+
+</head>
+<body>
+
+  <!-- Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- Noise overlay -->
+  <div class="noise"></div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">
+      <span class="logo-bracket">&lt;</span>Augusta Chidiebere<span class="logo-bracket">/&gt;</span>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb orb-1"></div>
+    <div class="hero-orb orb-2"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge reveal">Available for work</div>
+      <h1 class="hero-title reveal">
+        <span class="line">Web</span>
+        <span class="line gradient-text">Developer</span>
+        <span class="line">&amp; UI/UX Designer</span>
+      </h1>
+      <p class="hero-sub reveal">
+       I deliver fast, scalable digital products without compromising quality combining modern frontend frameworks, reliable backend systems, and AI-driven enhancements.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#projects" class="btn btn-primary">View Work</a>
+        <a href="#contact" class="btn btn-ghost">Let's Talk</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+
+<section class="section about" id="about">
+  <div class="container">
+    <div class="about-grid">
+
+      <!-- IMAGE -->
+      <div class="about-visual">
+        <div class="about-img-wrap">
+
+          <div class="about-img-box">
+            <img src="images/image.png" alt="Augusta Chidiebere" class="about-img-real"/>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- TEXT -->
+      <div class="about-text">
+        <p class="section-label reveal">About Me</p>
+
+        <h2 class="section-title reveal">
+          Crafting experiences that <em>matter</em>
+        </h2>
+
+        <p class="about-desc reveal">
+          I'm a passionate website developer with a designer's eye. I love turning complex problems into clean, intuitive solutions; whether that means architecting a scalable Django API or others, building a blazing-fast Next.js app, or designing a delightful user flow in Figma.
+        </p>
+
+        <p class="about-desc reveal">
+          I also leverage AI tools to accelerate delivery without sacrificing quality, and I bring structured project management thinking, using Asana, Trello and ClickUp to keep teams aligned and ship on time.
+        </p>
+<p class="about-desc reveal" >
+I am also the founder of  <a href="https://stadixhub.com" target="_blank"  style="color:#ded7d7; text-decoration:none;"  onmouseover="this.style.color='#02a9f7';"
+   onmouseout="this.style.color='#ffffff';" >Stadixhub</a>, where I build and manage real-world digital products for clients and businesses, focusing on performance, scalability, and modern UI/UX design.
+</p>  
+<!-- STATS -->
+        <div class="about-stats reveal">
+
+          <div class="stat">
+            <div class="stat-value">
+              <span class="stat-num" data-target="20">0</span>
+              <span class="stat-plus">+</span>
+            </div>
+            <span class="stat-label">Projects</span>
+          </div>
+
+          <div class="stat">
+            <div class="stat-value">
+              <span class="stat-num" data-target="5">0</span>
+              <span class="stat-plus">+</span>
+            </div>
+            <span class="stat-label">Years</span>
+          </div>
+
+          <div class="stat">
+            <div class="stat-value">
+              <span class="stat-num" data-target="30">0</span>
+              <span class="stat-plus">+</span>
+            </div>
+            <span class="stat-label">Clients</span>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- SKILLS -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <p class="section-label reveal center">Tech Stack</p>
+      <h2 class="section-title reveal center">Tools I work with</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card reveal" data-category="Frontend">
+          <h3>Frontend</h3>
+          <ul>
+            <li><span class="skill-pill">JavaScript</span></li>
+            <li><span class="skill-pill">React.js</span></li>
+            <li><span class="skill-pill">Next.js</span></li>
+            <li><span class="skill-pill">TypeScript</span></li>
+            <li><span class="skill-pill">Tailwind CSS</span></li>
+            
+          </ul>
+        </div>
+
+        <div class="skill-card reveal" data-category="Backend">
+          <h3>Backend</h3>
+          <ul>
+            <li><span class="skill-pill">Django REST </span></li>
+            <li><span class="skill-pill">PostgreSQL</span></li>
+            <li><span class="skill-pill">Supabase </span></li>
+              <li><span class="skill-pill">Firebase</span></li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal" data-category="Design">
+          <h3>UI/UX Design</h3>
+          <ul>
+            <li><span class="skill-pill">Figma</span></li>
+            <li><span class="skill-pill">Wireframing</span></li>
+            <li><span class="skill-pill">Prototyping</span></li>
+            <li><span class="skill-pill">Design Systems</span></li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal" data-category="AI">
+          <h3>AI Leveraging</h3>
+          <ul>
+            <li><span class="skill-pill">ChatGPT / Claude</span></li>
+            <li><span class="skill-pill">AI Integration</span></li>
+            <li><span class="skill-pill">Prompt Eng.</span></li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal" data-category="PM">
+          <h3>Project Mgmt.</h3>
+          <ul>
+            <li><span class="skill-pill">Trello</span></li>
+            <li><span class="skill-pill">Asana</span></li>
+            <li><span class="skill-pill">ClickUp</span></li>
+            <li><span class="skill-pill">Agile / Scrum</span></li>
+            <li><span class="skill-pill">Sprint Planning</span></li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal" data-category="Tools">
+          <h3>Dev Tools</h3>
+          <ul>
+            <li><span class="skill-pill">Git / GitHub</span></li>
+            <li><span class="skill-pill">Vercel</span></li>
+            <li><span class="skill-pill">VS Code</span></li>
+          </ul>
+           <div class="b"></div>         
+           <h3 >CMS</h3>
+          <ul >
+            <li ><span class="skill-pill">Wordpress</span></li>
+          </ul>
+        </div>     
+      </div>
+    </div>
+  </section>
+
+  <section class="section projects" id="projects">
+  <div class="container">
+    <p class="section-label reveal center">Work</p>
+    <h2 class="section-title reveal center">Selected Projects</h2>
+
+    <div class="projects-grid">
+      <!-- PROJECT 1 -->
+      <article class="project-card reveal featured">
+        <div class="project-img">
+          <img src="images/stadixhub.jpg" alt="Tech Brand website" class="project-real-img"/>
+        </div>
+
+        <div class="project-info">
+          <div class="project-tags">
+            <span>React js</span><span>Django</span> <span>Tailwind Css</span>
+          </div>
+
+          <h3>Brand Website</h3>
+
+          <p>
+           A modern tech brand website designed to communicate innovation, trust, and performance. It features a clean UI, fast loading experience, and responsive layout tailored to showcase digital products and services effectively.
+          </p>
+
+          <a href="https://stadixhub.com" target="_blank" class="project-link">
+            View Live Project →
+          </a>
+        </div>
+      </article>
+
+      <!-- PROJECT 2 -->
+      <article class="project-card reveal featured">
+        <div class="project-img">
+          <img src="images/site.jpg" alt="Building Construction Website" class="project-real-img"/>
+        </div>
+
+        <div class="project-info">
+          <div class="project-tags">
+            <span>Next.js</span><span>Django</span><span>Tailwind css</span> <span>Typescript</span>
+          </div>
+
+          <h3>Building Construction Website</h3>
+
+          <p>
+           A professional building construction website designed to showcase architectural services, ongoing projects, and company expertise. It features a clean, modern layout with project galleries, service highlights, and responsive design for seamless viewing across all devices.
+          </p>
+
+          <a href="https://sitebuiding.vercel.app/" target="_blank" class="project-link">
+            View Live Project →
+          </a>
+        </div>
+      </article>
+
+     
+ <!-- PROJECT 3 -->
+      <article class="project-card reveal featured">
+        <div class="project-img">
+          <img src="images/logistic_website.jpg" alt="Logistic" class="project-real-img"/>
+        </div>
+
+        <div class="project-info">
+          <div class="project-tags">
+            <span>Figma</span>
+          </div>
+
+          <h3>SaaS Patient-Doctor Booking App</h3>
+
+          <p>
+         A full-featured SaaS platform that connects patients with doctors through a seamless online booking system. It allows users to schedule appointments, manage consultations, and receive reminders in real time, while doctors can manage availability, patient records, and appointments efficiently.
+          </p>
+
+          <a href="https://site-logistic.onrender.com/" target="_blank" class="project-link">
+            View Live Project →
+          </a>
+        </div>
+      </article>
+
+  <!-- PROJECT 4 -->
+      <article class="project-card reveal featured">
+        <div class="project-img">
+          <img src="images/saas .jpg" alt="SaSS" class="project-real-img"/>
+        </div>
+
+        <div class="project-info">
+          <div class="project-tags">
+            <span>React js</span>
+          </div>
+
+          <h3>Logistic Website</h3>
+
+          <p>
+           A modern logistics website built to streamline transportation, delivery tracking, and supply chain management. It provides a fast and user-friendly interface for booking shipments, tracking parcels in real time, and showcasing reliable logistics services for businesses and individuals.
+          </p>
+
+          <a href="" target="_blank" class="project-link">
+            View Live Project →
+          </a>
+        </div>
+      </article>    
+    </div>
+  </div>
+</section>
+  
+<!-- EXPERIENCE -->
+<section class="section experience" id="experience">
+  <div class="container">
+
+    <p class="section-label reveal center">Journey</p>
+    <h2 class="section-title reveal center">Experience</h2>
+
+    <div class="timeline">
+
+      <!-- JOB 1 -->
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+
+        <div class="timeline-date">2023 — Present</div>
+
+        <div class="timeline-card">
+          <h3>Web Developer</h3>
+          <h4>Tech Company · Remote</h4>
+
+          <p>
+            Designed and developed scalable full-stack web applications using modern frontend frameworks Next.js (React Framework) and robust backend technologies such as django, supabase and so on. Built responsive user interfaces, developed secure APIs, and integrated third-party services to deliver high-performance digital products. Collaborated with cross-functional teams to improve user experience, optimize performance, and ensure seamless deployment across platforms. Among the projects are tech brand website, logistic website, construction website and so on.
+</p>
+          </p>
+
+          <div class="timeline-tags">
+            <span>Next.js</span>
+            <span>Django</span>
+            <span>AI</span>
+          </div>
+        </div>
+      </div>
+ <!-- JOB 2a -->
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+
+        <div class="timeline-date">2024 — 2025</div>
+
+        <div class="timeline-card">
+          <h3>Website Manager / E-commerce Specialist</h3>
+          <h4>Digital Agency </h4>
+
+          <p>
+             Managed and maintained e-commerce websites to ensure optimal performance, user experience, and conversion rates. Oversaw product listings, inventory updates, and order processing while implementing strategies to improve sales and customer engagement. Monitored website analytics, optimized content, and coordinated with design and marketing teams to drive growth and enhance overall site functionality.
+          </p>
+
+          <div class="timeline-tags">
+             <span>Product mangement</span>
+            <span>Shopify</span>
+            <span>wordpress</span>
+            <span>Conversion Optimization</span>
+          </div>
+        </div>
+      </div>
+      <!-- JOB 2 -->
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+
+        <div class="timeline-date">2022 — 2025</div>
+
+        <div class="timeline-card">
+          <h3>Frontend Developer & UI/UX Designer</h3>
+          <h4>Digital Agency </h4>
+
+          <p>
+            Designed and built client websites with a focus on accessibility and performance.
+            Created design systems in Figma and implemented them with React + Tailwind CSS.
+          </p>
+
+          <div class="timeline-tags">
+            <span>React</span>
+            <span>Tailwind</span>
+            <span>Figma</span>
+            <span>TypeScript</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- JOB 3 -->
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+
+        <div class="timeline-date">2021 — 2022</div>
+
+        <div class="timeline-card">
+          <h3>Junior Developer</h3>
+          <h4>Freelance · Remote</h4>
+
+          <p>
+            Built full-stack web applications for small businesses.
+            Gained hands-on experience with JavaScript, Django REST Framework,
+            and project coordination using Asana.
+          </p>
+
+          <div class="timeline-tags">
+            <span>JavaScript</span>
+            <span>Django</span>
+            <span>Trello</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- CONTACT -->
+<section class="section contact" id="contact">
+  <div class="container">
+
+    <div class="contact-wrap">
+
+      <div class="contact-left">
+        <p class="section-label reveal">Contact</p>
+        <h2 class="section-title reveal">
+          Let's build something <em>great</em> together
+        </h2>
+
+        <p class="contact-sub reveal">
+          Open to freelance projects, full-time roles, and interesting collaborations.
+          Drop me a message.
+        </p>
+
+        <div class="contact-socials reveal">
+          <a href="https://www.linkedin.com/in/augustachidiebere/" class="social-link">LinkedIn</a>
+      
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm">
+
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Your name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="your@email.com" required />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary full">
+          Send Message
+        </button>
+
+        <p class="form-success" id="formSuccess">
+          Message sent! I'll get back to you soon. 
+        </p>
+      </form>
+    </div>
+
+    
+
+  </div>
+</section>
+
+<!-- footer-->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="nav-logo">
+          <span class="logo-bracket">&lt;</span>Augusta Chidiebere<span class="logo-bracket">/&gt;</span>
+        </div>
+        <p class="footer-copy">
+  © <span id="year"></span> All rights Reserved
+</p>
+
+<script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
